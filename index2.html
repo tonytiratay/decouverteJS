@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <title>Découverte du javascript</title>
+</head>
+
+<body>
+  <div id="container">
+    <img class="logo" src="logo.png" alt="logo Oclock">
+    <!-- Ci dessous la zone de saisie utilisateur -->
+    <div id="header">
+      <label>Saisissez du texte ou du html</label>
+      <textarea
+        rows="10"
+        cols="100"
+        id="input">Modifiez moi</textarea>
+    </div>
+    <!-- Ci dessous le contenu HTML qui sera utilisé pour pré remplir l'éditeur -->
+    <div id="contenuHTML">
+      <h2>
+        Et oui, vous pouvez écrire du HTML dans cet éditeur, et en live !
+      </h2>
+      <img src="https://wp.oclock.io/wp-content/uploads/2017/07/fabparty4-800x550.jpg"/>
+    </div>
+
+  <!-- directement dans le fichier HTML -->
+  <script type="text/javascript">
+    console.log('Hello world depuis la page HTML !');
+  </script>
+
+  <!-- Depuis un fichier -->
+  <script src="demo.js"/></script>
+</body>
+</html>

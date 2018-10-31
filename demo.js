@@ -8,6 +8,7 @@ var contenuHTML = document.getElementById('contenuHTML');
 // Je rempli zoneDeSaisie avec le contenu
 // de la div "contenuHTML"
 
+
 zoneDeSaisie.value = contenuHTML.innerHTML;
 
 // Je crée une fonction qui met à jour

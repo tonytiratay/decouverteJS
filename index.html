@@ -1,50 +1,15 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
 <head>
-  <link rel="stylesheet" type="text/css" href="index.css">
-  <title>Découverte du javascript</title>
+  <title>Mon super site</title>
 </head>
 
 <body>
-  <div id="container">
-    <img class="logo" src="logo.png" alt="logo Oclock">
-    <div id="header">
-      <label>Saisissez du texte ou du html</label>
-      <textarea
-        rows="10"
-        cols="100"
-        id="input"
-        name="input">Modifiez moi</textarea>
-    </div>
-    <!-- Ci dessous le contenu HTML qui sera utilisé pour pré remplir l'éditeur -->
-    <div id="contenuHTML">
-      <h2>
-        Et oui, vous pouvez écrire du HTML dans cet éditeur
-      </h2>
-      <p>
-        Vous pouvez écrire du texte classique, comme ici... Ou vous pouvez vous amuser à mettre des <b>images</b>
-        ;)
-      </p>
-      <img src="https://wp.oclock.io/wp-content/uploads/2017/07/fabparty4-800x550.jpg"/>
-      <img src="https://media.giphy.com/media/8g63zqQ5RPt60/giphy.gif"/>
-      <h3>Et autre chose, c'est possible ?</h3>
-      <blockquote>Comme je sais pas moi, des iframes ?</blockquote>
-      <iframe
-        width="100%"
-        height="315"
-        src="https://www.youtube.com/embed/pK8L0BdnReA" ></iframe>
-    </div>
+  <textarea id="zoneDeSaisie"></textarea>
 
-  <!-- directement dans le fichier HTML -->
-  <script type="text/javascript">
-    console.log('Hello world depuis la page HTML !');
+  <div id="zoneDeResultat">
+    <h1>Un super titre !</h1>
+  </div>
+  <script src="index.js">
+
   </script>
-
-  <!-- Il est possible de spécifier un contenu pour les utilisateurs ayant désactivé le javascript -->
-  <noscript>Merci d'activer javascript pour pouvoir utiliser ce site</noscript>
-
-  <!-- Depuis un fichier -->
-  <script src="demo.js"/></script>
 </body>
-</html>

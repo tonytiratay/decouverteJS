@@ -22,7 +22,7 @@ Le navigateur est un programme, qui lit le code javascript, et est capable de le
 
 Pour vous faire comprendre que le contexte dans lequel vous aller executer le javascript détermine ce qui est possible ou non. Dans un navigateur par exemple, impossible de parcourir soi-même le contenu du disque dur de la machine. Mais V8 à changé la donne...
 
-> Aujourd'hui V8 permet à d'autres choses que le navigateur de comprendre le js
+> Aujourd'hui V8 permet à d'autres choses que le navigateur de comprendre le js.
 > Comme par exemple, un serveur, ou mon ordinateur
 
 **Ok... Mais pour quoi faire ?**

@@ -7,7 +7,9 @@ Le javascript est un langage initialement créé pour être executé dans un nav
 Permettre de programmer des interactions avec le HTML / CSS
 
 > Ex: Je clique sur un bouton pour afficher / masquer une partie de ma page.
+>
 > Ex: Quand je clique sur un menu la page s'anime et descend jusqu'à la bonne rubrique
+>
 > Ex: Quand je reçois un message, sans recharger la page, une notification m'en informe
 
 **Comment ça marche ?**
@@ -37,7 +39,7 @@ Pour permettre de faire avec un seul langage ce qui avant en nécessitait plusie
 
 **Ah, mais alors c'est super facile !**
 
-Mmmmm, oui... Mais non :) 
+Mmmmm, oui... Mais non :)
 
 L'univers de javascript et de ses bibliothèques est énorme, et pour beaucoup ces technologies sont jeunes, donc tout ça fait que tout n'est pas forcément toujours stable...
 

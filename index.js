@@ -1,16 +1,30 @@
-// Salut tout le monde ;)
-console.log('Hello world depuis le fichier index.js');
+// Je stocke dans des variable les éléments HTML
+// Je trouve ces éléments HTML grâce à leur Id.
+// Ex. zoneDeSaisie, contenuHTML
 
-// Stocker dans des variables les éléments HTML sur lesquels je veux agir
-var zoneDeSaisie = document.getElementById('zoneDeSaisie');
-var zoneDeResultat = document.getElementById('zoneDeResultat');
+var zoneDeSaisie = document.getElementById('input');
+var contenuHTML = document.getElementById('contenuHTML');
 
-// Remplir la zone d'inupt avec le contenu de la zone de resultat
-zoneDeSaisie.value = zoneDeResultat.innerHTML;
+// Je rempli zoneDeSaisie avec le contenu
+// de la div "contenuHTML"
 
-// Déclarer la fonction à appeler dés qu'une touche sera relachée dans la zone de saisie
-var mettreAJourLaZone = function () {
-  zoneDeResultat.innerHTML = zoneDeSaisie.value;
+zoneDeSaisie.value = contenuHTML.innerHTML;
+
+// Je crée une fonction qui met à jour
+// le contenu de la div "contenuHTML"
+// en y insérant le contenu de l'input "zoneDeSaisie"
+
+var mettreAJourLaDiv = function () {
+  contenuHTML.innerHTML = zoneDeSaisie.value;
 };
 
-zoneDeSaisie.onkeyup = mettreAJourLaZone;
+// J'écoute sur la zoneDeSaisie l'événement "onkeyup"
+// Cet événement est déclenché dés qu'un
+// utilisateur relache une touche.
+// J'assigne la fonction mettreAJourLaDiv comme
+// fonction à executer
+// lorsque l'événement est détecté
+
+zoneDeSaisie.onkeyup = mettreAJourLaDiv;
+// zoneDeSaisie.addEventListener('onKeyUp', mettreAJourLaDiv);
+
